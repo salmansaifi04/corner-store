@@ -1,0 +1,561 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.fl{
+    float: left;
+    margin-left: 8%;
+}
+
+.fl1{
+    float: left;
+}
+
+.fl2{
+    float: left;
+}
+
+.fr{
+    float: right;
+    margin-right: 8%;
+}
+
+.new{
+    float: left;
+    margin-left: 4%;
+}
+
+.clr{
+    clear: both;
+}
+
+.sfl{
+    float: left;
+}
+
+.sfr{
+    float: left;
+    margin-left: 20px;
+}
+
+/* head section start */
+
+.header{
+    width: 100%;
+    height: 100vh;
+    background-image: url(../img/banner1.jpg);
+    background-size: 100% 100%;
+    position: relative;
+}
+
+.head{
+    box-shadow: 0px 10px 0px white;
+    position: fixed;
+    background-color: #ffffff;
+    width: 100%;
+    height: 100px;
+    z-index: 10;
+}
+
+.head ul li{
+    list-style: none;
+}
+
+.head ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+.nav ul li{
+    display: inline;
+    line-height: 100px;
+    margin-left: 20px;
+    font-size: 20px;
+}
+
+.nav ul li a{
+    padding-bottom: 5px;
+}
+
+.nav .active{
+    color: rgb(253, 77, 46);
+    border-bottom: 1px solid rgb(253, 77, 46); 
+}
+
+.company_name ul{
+    margin-top: 20px;
+}
+
+.company_name span{
+    font-size: 18px;
+    display: block;
+}
+
+.company_name .size{
+    font-size: 30px;
+}
+
+.company_name i{
+    color: rgb(253, 77, 46);
+    margin-right: 10px;
+}
+
+.company_name ul li a:hover{
+    color: rgb(253, 77, 46);
+}
+
+.nav ul li a:hover{
+    color: rgb(253, 77, 46);
+    border-bottom: 1px solid rgb(253, 77, 46);
+}
+
+/* .input_type{
+    padding: 12px ;
+    margin-left: 20px;
+    font-size: 18px;
+    border-radius: 5px 0  0 5px;
+    width: 200px;
+    border: rgb(253, 77, 46) 2px solid;
+} */
+
+.card{
+    position: absolute;
+    top: 225px;
+    left: 8%;
+    width: 35%;
+    padding: 50px;
+    height: 400px;
+    background-color: rgba(253, 77, 46, 0.9);
+    color: white;
+}
+
+.big{
+    font-size: 45px;
+}
+
+.bigb{
+    font-size: 45px;
+    font-weight: 500;
+}
+
+.para{
+    margin-top: 20px;
+    font-size: 20px;
+    margin-bottom: 70px;   
+}
+
+.card a{
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    background-color: white;
+    border-radius: 20px;
+    padding: 10px 20px;
+    text-transform: uppercase;
+}
+
+.card a:hover{
+    background-color: black;
+    color: white;
+}
+
+
+/* head section start */
+
+/* paragraph section start */
+
+.mid-para{
+    position: relative;
+    margin-bottom: 80px;
+    margin-top: 100px;
+    text-align: center;
+}
+
+.mid-para h3{
+    font-size: 45px;
+    font-weight: 400;
+}
+
+.mid-para .lin1{
+    width: 100px;
+    height: 2px;
+    background-color: rgb(46, 45, 45);
+    position: absolute;
+    left: 45%;
+    top: 110px;
+}
+
+.mid-para .line1{
+    width: 100px;
+    height: 2px;
+    background-color: rgb(46, 45, 45);
+    position: absolute;
+    left: 45%;
+    top: 210px;
+}
+
+.mid-para .lin2{
+    width: 100px;
+    height: 2px;
+    background-color: rgb(46, 45, 45);
+    position: absolute;
+    left: 48%;
+    top: 117px;
+}
+
+.mid-para .line2{
+    width: 100px;
+    height: 2px;
+    background-color: rgb(46, 45, 45);
+    position: absolute;
+    left: 48%;
+    top: 217px;
+}
+
+
+
+/* paragraph section end */
+
+
+/* box section start */
+
+.main-box{
+    height: 300px;
+    width: 100%;
+    margin-bottom: 50px;
+}
+
+.box{
+    width: 25.3%;
+    height: 250px;
+}
+
+.box i{
+    font-size: 50px;
+    color: rgb(253, 77, 46);
+    padding: 20px 0;
+}
+
+.box h3 a{
+    text-decoration: none;
+    color: black;
+    font-size: 25px;
+}
+
+.box p{
+    font-size: 18px;
+    margin-top: 20px;
+    line-height: 30px;
+}
+
+
+/* box section end */
+
+/* box2 section start */
+
+
+.photo{
+    height: 420px;
+    width: 40%;
+}
+
+.text{
+    width: 40%;
+    height: 420px;
+}
+
+.bigp{
+    font-size: 45px;
+    margin-bottom: 10px;
+}
+
+.smallp{
+    font-size: 20px;
+    color: grey;
+    margin-bottom: 40px;
+}
+
+.row1{
+    height: 70px;
+    margin-bottom: 30px;
+}
+
+.row1 i{
+    color:  rgb(253, 77, 46);
+}
+
+.row2 i{
+    color:  rgb(253, 77, 46);
+}
+
+.text1 h2{
+    margin-bottom: 10px;
+}
+
+.text1 p{
+    font-size: 18px;
+    color: grey;
+}
+
+.tom{
+    color:   rgb(253, 77, 46);
+    font-weight: 900;
+}
+
+/* box2 section end */
+
+
+/* box3 section start */
+
+.mainbox1{
+    margin-top: 100px;
+    width: 100%;
+    height: 400px;
+    margin-bottom: 100px;
+}
+
+.box1{
+    width: 40%;
+    height: 100%;
+}
+
+.mainbox1 .box1 h1{
+    font-size: 45px;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+
+.mainbox1 .box1 p{
+    font-size: 20px;
+    margin-bottom: 30px;
+    color: grey;
+}
+
+.mainbox1 .box1 a{
+    color: white;
+    background-color: rgb(253, 77, 46);
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    border-radius: 30px;
+    padding: 15px 20px;
+}
+
+.mainbox1 .box1 a:hover{
+    background-color: black;
+    color: white;
+}
+
+.mainbox1 .box1 .mar{
+    margin-top: 50px;
+}
+
+.box2{
+    width: 40%;
+    height: 100%;
+    position: relative;
+}
+
+.cir1{
+    border: 10px solid   rgb(253, 77, 46);
+    width: 180px;
+    height: 180px;
+    margin-top: 80px;
+    margin-left: 30px;
+    border-radius: 50%;
+    position: relative;
+}
+
+.bor{
+    position: absolute;
+    top: 50px;
+    left: 43px;
+    font-size: 40px;
+}
+
+
+.cir2{
+    border: 10px solid   rgb(253, 77, 46);
+    width: 180px;
+    height: 180px;
+    margin-top: 80px;
+    margin-left: 100px;
+    border-radius: 50%;
+    position: relative;
+}
+
+.bord{
+    position: absolute;
+    top: 50px;
+    left: 43px;
+    font-size: 40px;
+}
+
+.cl{
+    position: absolute;
+    top: 280px;
+    left: 30px;
+    font-size: 20px;
+}
+
+.cls{
+    position: absolute;
+    top: 280px;
+    right: 30px;
+    font-size: 20px;
+}
+
+/* box3 section end */
+
+/* background section start */
+
+.cont{
+    width: 100%;
+    height: 100vh;
+    background-image: url(../img/bg1.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+.form{
+    margin-top: 2.5%;
+    background-color: white;
+    width: 35%;
+    height: 90%;
+    padding: 20px 40px;
+}
+
+.form h1{
+    font-size: 45px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.form p{
+    margin-bottom: 15px;
+}
+
+.borderbottom{
+    border: none;
+    border-bottom: 1px solid grey;
+    width: 95%;
+    color: grey;
+    padding: 8px;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.txt{
+    border: none;
+    color: grey;
+    border-bottom: 1px solid grey;
+    width: 100%;
+    padding: 8px;
+    font-size: 18px;
+}
+
+.btn{
+    padding: 10px 20px;
+    background-color: rgb(253, 77, 46);
+    color: white;
+    font-size: 18px;
+    border: none;
+    border-radius: 30px;
+    font-weight: 500;
+    margin-top: 10px;
+}
+
+.btn:hover{
+    color: white;
+    background-color: black;
+}
+
+
+
+/* background section end */
+
+
+/* box-row section start */
+
+.box-row{
+    margin-top: 100px;
+    margin-bottom: 100px;
+    width: 100%;
+    height: 400px;
+}
+
+.rbox1{
+    width: 21%;
+    height: 100%;
+    border-left: 1px solid lightgrey;
+    border-top: 1px solid lightgrey;
+    border-bottom: 1px solid lightgrey;
+    padding: 25px 30px 25px 25px;
+}
+
+.rbox2{
+    width: 21%;
+    height: 100%;
+    border-left: 1px solid lightgrey;
+    border-right: 1px solid lightgrey;
+    border-top: 1px solid lightgrey;
+    border-bottom: 1px solid lightgrey;
+    padding: 25px 30px 25px 25px;
+}
+
+.box-row a{
+    text-decoration: none;
+    color: black;
+}
+
+.box-row h1{
+    font-weight: 600;
+}
+
+.box-row h1:hover{
+    color: rgb(253, 77, 46);
+}
+
+.box-row p{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-size: 22px;
+    color: grey;
+}
+
+.col{
+    margin-top: 40px;
+    color: rgb(253, 77, 46);
+}
+
+.siz{
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.siz:hover{
+    color: rgb(253, 77, 46);
+}
+
+/* box-row section end */
+
+
+/* blog box section start */
+
+.mr4{
+    padding-top: 100px;
+}
+
+.blog-box{
+    width: 100%;
+    height: 150vh;
+    background-color: #FBFBFB;
+}
+
+
+/* blog box section end */
+
+
+
