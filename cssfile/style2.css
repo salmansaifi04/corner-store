@@ -1,0 +1,558 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.fl{
+    float: left;
+}
+
+.fr{
+    float: right;
+}
+
+.new1{
+    float: left;
+    margin-left: 5%;
+}
+
+.frnew{
+    float: right;
+    margin-right: 5%;
+}
+
+.new2{
+    float: left;
+    margin-left: 10%;
+}
+
+.new{
+    float: left;
+    margin-left: 10%;
+}
+
+.clr{
+    clear: both;
+}
+
+.pfr{
+    float: right;
+    margin-right: 1%;
+}
+
+.pfr1{
+    float: right;
+    margin-right:2% ;
+}
+
+.dfl{
+    float: left;
+    margin-left: 5%;
+}
+
+.dfl1{
+    float: left;
+    margin-left: 2%;
+}
+
+
+
+/* header section start */
+
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 50px;
+    background-color: black;
+    margin-bottom: 100px;
+    z-index: 1000;
+}
+
+
+
+.le{
+    line-height: 49px;
+    background-color: blue;
+}
+
+.le a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    padding: 0 30px 0 20px;
+}
+
+form{
+    display: inline;
+}
+
+.cart{
+    margin-top: 4px;
+    display: inline;
+    background-color: blue;
+    border-radius: 5px;
+}
+
+.cart a{
+    padding: 0 20px;
+    text-decoration: none;
+    color: white;
+    /* font-size: 20px; */
+    line-height: 42px;
+}
+
+.cart a i{
+    margin-left: 5px;
+}
+
+.profile{
+    display: inline;
+}
+
+.profile i{
+    line-height: 50px;
+    color: white;
+}
+
+.ri{
+    line-height: 49px;
+    background-color: tomato;
+}
+
+.ri a{
+    font-weight: 900;
+    text-decoration: none;
+    color: white;
+    padding: 0 20px 0 30px;
+    font-size: 20px;
+}
+
+.header input[type="search"]{
+    width: 350px;
+    margin-top: 4px;
+    height: 42px;
+    outline: none;
+    border-radius: 5px 0 0 5px;
+    font-size: 16px;
+    padding: 0 15px;
+    background-color: white;
+}
+
+.header button {
+    outline: none;
+    border: none;
+    margin-left: -4px;
+    background-color: tomato;
+    padding: 12.5px 20px;
+    border-radius: 0 5px 5px 0;
+}
+
+.header button i{
+    color: white;
+}
+
+/* header section end */
+
+
+
+/* container section start */
+.container{
+    margin-top: 50px;
+    width: 100%;
+    height: 70px;
+}
+
+.tom{
+    color: white;
+    background-color: tomato;
+    padding: 3px 8px;
+    border-radius: 5px;
+}
+
+.blue{
+    color: blue;
+}
+
+.container .name a{
+    text-decoration: none;
+    font-size: 40px;
+    color: black;
+    font-weight: 900;
+    line-height: 70px;
+}
+
+.nav ul li{
+    display: inline;
+    padding-left: 20px;
+}
+
+.nav ul li a{
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+    line-height: 70px;
+}
+
+.nav ul li .active{
+    color: blue;
+}
+
+.nav ul li a:hover{
+    color: blue;
+}
+
+.cont ul li{
+    display: inline;
+}
+
+
+.cont ul li a{
+    text-decoration: none;
+    color: black;
+    line-height: 70px;
+    padding-left: 20px;
+}
+
+.cont ul .sym{
+    margin-left: 20px;
+}
+
+.cont ul li a i{
+    padding-right: 10px;
+}
+
+.cont ul li a:hover{
+    color: tomato;
+}
+
+
+/* container section end */
+
+
+/* banner section start */
+
+.banner-section{
+    width: 100%;
+    height: 90vh;
+    margin-bottom: 100px;
+}
+
+.side-nav{
+    width: 18%;
+    height: 100%;
+}
+
+.side-nav ul li{
+    background-color: rgb(240, 237, 237);
+    list-style: none;
+    font-size: 20px;
+    border-bottom: 1px solid white;
+    
+}
+
+.side-nav ul li a{
+    display: block;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: black;
+}
+
+.side-nav ul li a:hover{
+    background-color: blue;
+}
+
+.banner-section .banner{
+    background-image: url(../img/pexels-ella-olsson-1640777.jpg);
+    width: 82%;
+    height: 100%;
+    background-size: 100% 100%;
+    position: relative;
+}
+
+.banner .he1{
+    position: absolute;
+    top: 100px;
+    left: 50px;
+    color: black;
+    font-size: 50px;
+}
+.banner .he2{
+    position: absolute;
+    top: 170px;
+    left: 50px;
+    font-size: 45px;
+    color: tomato;
+}
+.banner .btn{
+    position: absolute;
+    top: 350px;
+    left: 50px;
+    background-color: blue;
+    color: white;
+    padding: 8px 20px;
+    border-radius: 5px;
+}
+
+.banner .btn a{
+    color: white;
+    text-decoration: none;
+}
+
+.banner .btn:hover{
+    background-color: tomato;
+}
+
+/* banner section end */
+
+
+/* product section start */
+.product-s{
+    width: 100%;
+    height: 250px;
+    margin-bottom: 100px;
+}
+
+.p1{
+    width: 25%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+.bg1{
+    background-image: url(../img/p1.jpg);
+    width: 25%;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100%;
+}
+
+.bg2{
+    background-image: url(../img/p2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 25%;
+    height: 100%;
+}
+
+.bg3{
+    background-image: url(../img/p3.jpg);
+    background-position: right;
+    background-repeat: no-repeat;
+    width: 25%;
+    height: 100%;
+}
+
+
+/* product section end */
+
+
+/* Daily Product Section start */
+.contain{
+    width: 100%;
+    height: 90vh;
+    background-color: honeydew;
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.txt{
+    padding: 50px;
+    position: relative;
+}
+
+.txt h1{
+    font-size: 40px;
+}
+
+.txt .line1{
+    position: absolute;
+    left: 45%;
+    top: 115px;
+    width: 100px;
+    height: 2px;
+    background-color: tomato;
+}
+
+.row{
+    width: 100%;
+    height: 350px;
+}
+
+.box1{
+    width: 21%;
+    height: 100%;
+    border: 1px solid lightgrey;
+}
+
+.btn1{
+    display: block;
+    background-color: tomato;
+    padding: 8px 40px;
+    border-radius: 7px;
+    text-decoration: none;
+    color: white;
+    width: 200px;
+    margin-left: 42px;
+    margin-top: 50px;
+}
+
+.row .box1 p{
+    color: black;
+    text-align: left;
+    margin-left: 43px;
+    margin-bottom: 20px;
+}
+
+.row .box1 a{
+    text-decoration: none;
+}
+
+.box1:hover{
+    border: 1px solid blue;
+}
+
+.box1 .btn1:hover{
+    background-color: blue;
+}
+
+
+/* Daily Product Section end */
+
+/* contact section start */
+.section{
+    width: 100%;
+    height: 100px;
+    background-color: tomato;
+    margin-bottom: 10px;
+}
+
+.text1{
+    line-height: 100px;
+    margin-left: 20%;
+    color: white;
+}
+
+.form{
+    line-height: 100px;
+    margin-right: 20%;
+}
+
+form input[type="email"]{
+    width: 320px;
+    height: 40px;
+    border-radius: 4px 0 0 4px;
+    border: 1px solid white;
+    background-color: tomato;
+    outline: none;
+}
+
+form input[type="submit"]{
+    width: 150px;
+    margin-left: -5px;
+    height: 40px;
+    color: tomato;
+    background-color: white;
+    border-radius: 0 4px 4px 0;
+    border: 1px solid white;
+}
+
+/* contact section end */
+
+/* footer section start */
+
+.footer{
+    width: 100%;
+    height: 120vh;
+    background-color: rgb(53, 51, 51);
+    padding: 50px 0;
+}
+
+.col1{
+    color: white;
+    width: 21%;
+    height: 350px;
+}
+
+.col1 ul li{
+    list-style: none;
+    margin-bottom: 20px;
+}
+
+.col1 h1{
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+.col1 ul li a{
+    text-decoration: none;
+    color: grey;
+    font-size: 18px;
+}
+
+.col1 ul li i{
+    margin-right: 10px;
+}
+
+.col1 ul li a:hover{
+    color: white;
+}
+
+.fl4{
+    margin-left: 23px;
+}
+
+.grey{
+    color: grey;
+}
+
+.row2{
+    width: 100%;
+    height: 100px;
+}
+
+.rcl1{
+    width: 21%;
+    height: 100px;
+}
+
+.rcl1 h3{
+    margin-bottom: 20px;
+}
+
+.rcl1 ul li{
+    display: inline;
+}
+
+.rcl1 ul li a i{
+    color: white;
+    margin-right: 10px;
+}
+
+.rcl1 .whi{
+    color: white;
+}
+
+.rcl1 ul li a i:hover{
+    color: tomato;
+}
+
+.border-bot{
+    width: 90%;
+    margin: auto;
+    margin-top: 40px;
+    padding: 80px;
+    text-align: center;
+    color: grey;
+    font-size: 20px;
+    border-top: .3px solid white;
+}
+
+.border-bot p a{
+    text-decoration: none;
+    color: white;
+}
+
+/* footer section end */
